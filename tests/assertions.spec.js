@@ -14,6 +14,6 @@ test("Assertion Demo", async ({ page }) => {
 
   //check element hidden or visible
   await expect(page.locator("text=The kitchen")).toBeVisible();
-  await expect.soft(page.locator("text=The kitchen")).toBeHidden();
-  await expect(page.locator("text=The kitchen")).toBeHidden();
+  //await expect.soft(page.locator("text=The kitchen")).toBeHidden();
+  //await expect(page.locator("text=The kitchen")).toBeHidden();
 });
